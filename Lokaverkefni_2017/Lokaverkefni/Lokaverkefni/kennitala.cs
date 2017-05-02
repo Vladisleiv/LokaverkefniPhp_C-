@@ -19,6 +19,7 @@ namespace Lokaverkefni
             gagnagrunnur.TengingGagnagrunur();
         }
 
+       
         private void btKt0_Click(object sender, EventArgs e)
         {
             tbSladu.Text = tbSladu.Text + 0;
@@ -85,10 +86,19 @@ namespace Lokaverkefni
         {
             string innkenn = tbSladu.Text;
             string konni = null;
-            konni = gagnagrunnur.LesautSQLToflu(innkenn);
-            string[] konniannar=konni.Split(':');
-             MessageBox.Show("þú ert í gagnagrunninum " + konniannar[0] + " " + konniannar[1] + " \nVelkominn");
-          
+            try
+            {
+                konni = gagnagrunnur.LesautSQLToflu(innkenn);
+                string[] konniannar = konni.Split(':');
+                MessageBox.Show("þú ert í gagnagrunninum " + konniannar[0] + " " + konniannar[1] + " \nTakk fyrir og Velkomin");
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Þú ert ekki í gagnagrunninum.");
+            }
+            
+             
         }
     }
 }

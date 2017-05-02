@@ -17,3 +17,12 @@ H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.exe
 H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.pdb
 H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.pdb
 H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.csprojResolveAssemblyReference.cache
+H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.exe.config
+H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.exe
+H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.pdb
+H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.exe
+H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.pdb
+H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.Form1.resources
+H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.kennitala.resources
+H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.Properties.Resources.resources
+H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.csproj.GenerateResource.Cache
