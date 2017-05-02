@@ -1,0 +1,19 @@
+C:\Users\Vladislavs\Desktop\FOR 2017\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.exe.config
+C:\Users\Vladislavs\Desktop\FOR 2017\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.csprojResolveAssemblyReference.cache
+C:\Users\Vladislavs\Desktop\FOR 2017\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.Form1.resources
+C:\Users\Vladislavs\Desktop\FOR 2017\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.Properties.Resources.resources
+C:\Users\Vladislavs\Desktop\FOR 2017\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.csproj.GenerateResource.Cache
+C:\Users\Vladislavs\Desktop\FOR 2017\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.exe
+C:\Users\Vladislavs\Desktop\FOR 2017\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.pdb
+C:\Users\Vladislavs\Desktop\FOR 2017\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.exe
+C:\Users\Vladislavs\Desktop\FOR 2017\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.pdb
+H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.exe
+H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.exe.config
+H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.Form1.resources
+H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.kennitala.resources
+H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.Properties.Resources.resources
+H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.csproj.GenerateResource.Cache
+H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.exe
+H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.pdb
+H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.pdb
+H:\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.csprojResolveAssemblyReference.cache
