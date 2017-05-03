@@ -169,6 +169,11 @@ namespace Lokaverkefni
             total = 0;
         }
 
+        public void ClearAfterKennitala()
+        {
+            MainScreen.Clear();
+        }
+
         private void button34_Click(object sender, EventArgs e)
         {
             Money.Clear();

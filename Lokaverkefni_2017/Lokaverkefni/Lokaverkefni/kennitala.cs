@@ -12,6 +12,7 @@ namespace Lokaverkefni
 {
     public partial class kennitala : Form
     {
+        Form1 form = new Form1();
         Gagnagrunnur gagnagrunnur = new Gagnagrunnur();
         public kennitala()
         {
@@ -92,7 +93,9 @@ namespace Lokaverkefni
                 konni = gagnagrunnur.LesautSQLToflu(innkenn);
                 string[] konniannar = konni.Split(':');
                 MessageBox.Show("þú ert í gagnagrunninum " + konniannar[0] + " " + konniannar[1] + " \nTakk fyrir og Velkomin");
+                form.ClearAfterKennitala();
                 this.Close();//That part after you press ok will close the windows with kennitala and turn you back to the main screen
+                
             }
             catch (Exception)
             {
