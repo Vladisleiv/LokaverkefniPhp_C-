@@ -284,7 +284,6 @@
             this.MainScreen.Size = new System.Drawing.Size(496, 292);
             this.MainScreen.TabIndex = 50;
             this.MainScreen.Text = "";
-            this.MainScreen.TextChanged += new System.EventHandler(this.MainScreen_TextChanged);
             // 
             // btClear
             // 

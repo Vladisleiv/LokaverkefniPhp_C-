@@ -19,7 +19,7 @@ namespace Lokaverkefni
             gagnagrunnur.TengingGagnagrunur();
         }
 
-       
+       //Here down you can look at all code about the all buttons
         private void btKt0_Click(object sender, EventArgs e)
         {
             tbSladu.Text = tbSladu.Text + 0;
@@ -75,7 +75,7 @@ namespace Lokaverkefni
             int length = tbSladu.TextLength - 1;
             string text = tbSladu.Text;
             tbSladu.Clear();
-
+            
             for (int i = 0; i < length; i++)
             {
                 tbSladu.Text = tbSladu.Text + text[i];
@@ -88,13 +88,15 @@ namespace Lokaverkefni
             string konni = null;
             try
             {
+                //Here i make so when you input the correct kennitala programm will look at my database and if that kennitala there programm will show you my name and some message
                 konni = gagnagrunnur.LesautSQLToflu(innkenn);
                 string[] konniannar = konni.Split(':');
                 MessageBox.Show("þú ert í gagnagrunninum " + konniannar[0] + " " + konniannar[1] + " \nTakk fyrir og Velkomin");
-                this.Close();
+                this.Close();//That part after you press ok will close the windows with kennitala and turn you back to the main screen
             }
-            catch (Exception ex)
+            catch (Exception)
             {
+                //Here will give you errore if you input the wrong kennitala
                 MessageBox.Show("Þú ert ekki í gagnagrunninum.");
             }
             

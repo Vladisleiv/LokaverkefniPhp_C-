@@ -252,21 +252,27 @@ namespace Lokaverkefni
             kt.Show();  
         }
 
-        private void MainScreen_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
 
         private void btPenning_Click(object sender, EventArgs e)
         {
             int cost = Convert.ToInt32(price_all);
             int cash = Convert.ToInt32(Money);
+            if (cost>cash)
+            {
+                MessageBox.Show("I need more money!");
+            }
+            else 
+            {
+                MessageBox.Show("Thank you.");
+            }
             
         }
 
+       
         private void price_all_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
+
     }
 }
