@@ -23,7 +23,7 @@ namespace Lokaverkefni
             int samloka= 460;
             MainScreen.Text += "Samloka                                                "+samloka+"kr\n";
             total += samloka;
-            price_all.Text = total + "kr";
+            price_all.Text = total + "";
         }
 
         private void btLangloka_Click(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace Lokaverkefni
             int langloka = 590;
             MainScreen.Text += "Langloka                                               "+langloka+"kr\n";
             total += langloka;
-            price_all.Text = total + "kr";
+            price_all.Text = total + "";
         }
 
         private void btKjötHambTortil_Click(object sender, EventArgs e)
@@ -39,7 +39,7 @@ namespace Lokaverkefni
             int kjot = 675;
             MainScreen.Text += "Kjötloka/Hamborgar/Tortilla                    "+kjot+"kr\n";
             total += kjot;
-            price_all.Text = total + "kr";
+            price_all.Text = total + "";
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -47,7 +47,7 @@ namespace Lokaverkefni
             int luxus = 990;
             MainScreen.Text += "Lúxus Samloka                                      "+luxus+"kr\n";
             total += luxus;
-            price_all.Text = total + "kr";
+            price_all.Text = total + "";
         }
 
         private void btGos_Click(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace Lokaverkefni
             int gos = 265;
             MainScreen.Text += "Gos                                                       "+gos+"kr\n";
             total += gos;
-            price_all.Text = total + "kr";
+            price_all.Text = total + "";
         }
 
         private void btJogurt_Click(object sender, EventArgs e)
@@ -63,7 +63,7 @@ namespace Lokaverkefni
             int jogurt = 190;
             MainScreen.Text += "Jógurt                                                    "+jogurt+"kr\n";
             total += jogurt;
-            price_all.Text = total + "kr";
+            price_all.Text = total + "";
         }
 
         private void btSafi_Click(object sender, EventArgs e)
@@ -172,6 +172,7 @@ namespace Lokaverkefni
         public void ClearAfterKennitala()
         {
             MainScreen.Clear();
+            price_all.Clear();
         }
 
         private void button34_Click(object sender, EventArgs e)
@@ -260,16 +261,31 @@ namespace Lokaverkefni
 
         private void btPenning_Click(object sender, EventArgs e)
         {
-            int cost = Convert.ToInt32(price_all);
-            int cash = Convert.ToInt32(Money);
+          
+            int cost = Convert.ToInt32(price_all.Text);
+            int cash = Convert.ToInt32(Money.Text);
             if (cost>cash)
             {
                 MessageBox.Show("I need more money!");
             }
-            else 
+            else if (cash>cost)
+            {
+                MessageBox.Show("You need give back: " + (cash - cost) + "kr");
+                MainScreen.Clear();
+                price_all.Clear();
+                Money.Clear();
+                total = 0;
+            }
+            else
             {
                 MessageBox.Show("Thank you.");
+                MainScreen.Clear();
+                price_all.Clear();
+                Money.Clear();
+                total = 0;
             }
+
+            
             
         }
 
