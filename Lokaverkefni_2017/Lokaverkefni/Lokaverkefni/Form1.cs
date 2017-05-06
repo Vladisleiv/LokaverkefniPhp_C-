@@ -8,10 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Lokaverkefni
 {
     public partial class Form1 : Form
     {
+        Gagnagrunnur g = new Gagnagrunnur();
+        List<string> itemList = new List<string>(); 
         int total = 0;
         public Form1()
         {
@@ -24,6 +27,7 @@ namespace Lokaverkefni
             MainScreen.Text += "Samloka                                                "+samloka+"kr\n";
             total += samloka;
             price_all.Text = total + "";
+            itemList.Add("Samloka");
         }
 
         private void btLangloka_Click(object sender, EventArgs e)
@@ -32,6 +36,7 @@ namespace Lokaverkefni
             MainScreen.Text += "Langloka                                               "+langloka+"kr\n";
             total += langloka;
             price_all.Text = total + "";
+            itemList.Add("");
         }
 
         private void btKjötHambTortil_Click(object sender, EventArgs e)
@@ -40,6 +45,7 @@ namespace Lokaverkefni
             MainScreen.Text += "Kjötloka/Hamborgar/Tortilla                    "+kjot+"kr\n";
             total += kjot;
             price_all.Text = total + "";
+            itemList.Add("");
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -96,6 +102,7 @@ namespace Lokaverkefni
             MainScreen.Text += "Salatbar                                               "+salatbar+"kr\n";
             total += salatbar;
             price_all.Text = total + "";
+            itemList.Add("Salatbar");
         }
 
         private void btOrkubar_Click(object sender, EventArgs e)
@@ -120,6 +127,7 @@ namespace Lokaverkefni
             MainScreen.Text += "Heit Máltið                                           "+mat+"kr\n";
             total += mat;
             price_all.Text = total + "";
+            itemList.Add("Heit Máltið");
         }
 
         private void btSupa_Click(object sender, EventArgs e)
@@ -128,6 +136,7 @@ namespace Lokaverkefni
             MainScreen.Text += "Supa                                                     "+supa+"kr\n";
             total += supa;
             price_all.Text = total + "";
+            itemList.Add("Supa");
         }
 
         private void btHnetupoki_Click(object sender, EventArgs e)
@@ -144,6 +153,7 @@ namespace Lokaverkefni
             MainScreen.Text += "Grænmetisrétt                                      "+graenmetis+"kr\n";
             total += graenmetis;
             price_all.Text = total + "";
+            itemList.Add("Grænmetisrétt");
         }
 
         private void btEinnota_Click(object sender, EventArgs e)
@@ -165,7 +175,8 @@ namespace Lokaverkefni
         private void btClear_Click(object sender, EventArgs e)
         {
             MainScreen.Clear();
-            price_all.Clear();
+            price_all.Clear();      
+            itemList.Clear();           
             total = 0;
         }
 
@@ -254,7 +265,9 @@ namespace Lokaverkefni
 
         private void btKt_Click(object sender, EventArgs e)
         {
-            kennitala kt = new kennitala();
+            
+            kennitala kt = new kennitala("name","last",total, itemList);
+            
             kt.Show();  
         }
 
@@ -267,6 +280,7 @@ namespace Lokaverkefni
             if (cost>cash)
             {
                 MessageBox.Show("I need more money!");
+                Money.Clear();
             }
             else if (cash>cost)
             {

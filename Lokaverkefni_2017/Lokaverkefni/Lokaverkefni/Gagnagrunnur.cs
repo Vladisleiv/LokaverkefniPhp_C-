@@ -34,7 +34,7 @@ namespace Lokaverkefni
 
         public void TengingGagnagrunur()
         {
-            server = "10.200.10.24";//ip talan fyrir phpMyAdmin
+            server = "82.148.66.15";//ip talan fyrir phpMyAdmin
             database = "0206953159_lokaverkefni_2017 ";
             uid = "0206953159";
             password = "peskivreme95";
@@ -97,6 +97,26 @@ namespace Lokaverkefni
                 return Faerslur;
             }
             return Faerslur;
+        }
+        public string[] returnUserInfo(string kt)
+        {
+            string[] gogn = new string[4];
+            if (OpenConnection() == true)
+            {
+                fyryrspurn = "SELECT Name,Lastname,Kennitala FROM gold_customers where kennitala='" + kt + "'";
+                nySQLskipun = new MySqlCommand(fyryrspurn, sqltenging);
+                sqllesari = nySQLskipun.ExecuteReader();
+                while (sqllesari.Read())
+                {
+                    gogn[0] = sqllesari.GetValue(0).ToString();
+                    gogn[1] = sqllesari.GetValue(1).ToString();
+                    gogn[2] = sqllesari.GetValue(2).ToString();
+                }
+                sqllesari.Close();
+                CloseConnection();
+                return gogn;
+            }
+            return gogn;
         }
 
     }

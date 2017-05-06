@@ -27,3 +27,14 @@ H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Loka
 H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.Properties.Resources.resources
 H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.csproj.GenerateResource.Cache
 H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.csprojResolveAssemblyReference.cache
+H:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\MySql.Data.dll
+C:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.exe.config
+C:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.exe
+C:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.pdb
+C:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.exe
+C:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\bin\Debug\Lokaverkefni.pdb
+C:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.csprojResolveAssemblyReference.cache
+C:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.Form1.resources
+C:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.kennitala.resources
+C:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.Properties.Resources.resources
+C:\LokaverkefniPhp_C#\Lokaverkefni_2017\Lokaverkefni\Lokaverkefni\obj\Debug\Lokaverkefni.csproj.GenerateResource.Cache

@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Discount">
+      <HintPath>..\..\..\..\ClassLibraryDiscount\Discount\Discount\bin\Debug\Discount.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data">
       <HintPath>C:\Users\0206953159\Downloads\MySql.Data.dll</HintPath>
     </Reference>
