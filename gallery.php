@@ -8,12 +8,12 @@
 </head>
 <body>
 <header>
-    <h1>Sins </h1>
+    <h1>LSH </h1>
 </header>
 <div id="wrapper">
     <?php require './includes/menu.php'; ?>
     <main>
-        <h2>Seven Deadly Sins</h2>
+        <h2>Landspitalinn Hringbraut</h2>
       <p id="picCount">Displaying 1 to 7</p>
         <div id="gallery">
             <table id="thumbs">
@@ -25,11 +25,40 @@
             </table>
             <figure id="main_image">
                 <img src="images/thumbs/all2.jpg" alt="" width="200" height="200">
-                <figcaption>Изображение семи грехов в книге Иоанна Бузаеуса</figcaption>
+                <figcaption>LSH</figcaption>
             </figure>
         </div>
     </main>
     <?php include './includes/footer.php'; ?>
+
+            <?php
+        include "conn.php";
+        include "query3.php";
+
+        ?>
+
+<h1>Hérna Koma Myndir Með Database lausn</h1>
+<form action="input3.php" method="POST">
+    Nafn:<br>
+    <input type="text" name="myndheiti">
+    <br><br/>
+    Slóð:<br>
+    <input type="text" name="myndavefslod">
+    <br><br>
+    <input type="submit" name="Submit">
+</form>
+
+<?php
+
+            foreach ($mynd as $entry) {
+                # code...
+                echo '<p>' . $entry[0] . '<br> <img src="' . $entry[1] . '" style="width:304px"';
+            }
+
+            print_r($mynd)
+
+            ?>
+
 </div>
 </body>
 </html>
