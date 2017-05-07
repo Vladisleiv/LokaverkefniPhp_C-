@@ -28,16 +28,15 @@
     <input type="text" name="Kennitala">
     <br><br>
     <input type="submit" name="Submit">
-</form>
-
-        
-    <?php include './includes/footer.php'; ?>
-
+    
+</form>   
+    
+        </div>
             <?php
         include "connection.php";
         include "query.php";
 
         ?>
-</div>
+
 </body>
 </html>
