@@ -17,7 +17,7 @@
         <h2>Forstjórapistill: Hvað er Landspítali?</h2>
         <p>Því hvað er Landspítali? Strangt til tekið einfaldlega safn rúmlega 100 bygginga á höfuðborgarsvæðinu þar sem starfar fólk sem hefur menntun og reynslu til að sinna þeim sem eru sjúkir og eiga um sárt að binda. En spítalinn er miklu meira, hann er hugmynd sem sameinar meira en 5.000 frábærar manneskjur á 17 stöðum þannig að þær vinna saman sem ein heild. Og Landspítali er ekki bara hugmynd, heldur  hugsjón um sjúkrahús, griðastað þangað sem fólk á að geta leitað og fengið lækningu og líkn. Gildin okkar; umhyggja, fagmennska, öryggi og framþróun eru leiðarljósin. <a href="details.php">More</a></p>
         
-        <p> Иоанн Кассиан в начале V века в сочинении «Собеседования» (Collationes) говорит, что учение о восьми главных грехах принято повсюду. Однако первым христианским автором, в трудах которого точно и определенно излагается учение о восьми главных грехах, считается Евагрий Понтийский, который в конце IV века изложил это учение в сочинении «О восьми злых помыслах» (в Добротолюбии это — «О восьми помыслах Анатолию», в «Патрологии Миня» — De octo vitiosis cogitationibus). <a href="details.php">More</a></p>
+        <p> Í þessu ljósi vil ég vegna ummæla og umræðu sumra ráðamanna nú nýverið um fjármál Landspítala árétta málflutning okkar. Við höfum rýnt fjármálastefnu stjórnvalda um rekstur heilbrigðisþjónustunnar eins ítarlega og unnt er og gert skilmerkilega grein fyrir athugasemdum okkar með rökum, m.a. á ársfundi okkar.  Ekkert í málflutningi ráðamanna gefur tilefni til leiðréttinga á greiningu okkar né sérstaka bjartsýni um breyttar rekstrarforsendur á næstunni. <a href="details2.php">More</a></p>
         
     </main>
     <?php include './includes/footer.php'; ?>
