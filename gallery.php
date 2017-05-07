@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Seven Deadly sins<?php if(isset($title)) { echo "&#8212;{$title}"; } ?></title>
+    <title>Landspitalinn Hrigbraut<?php if(isset($title)) { echo "&#8212;{$title}"; } ?></title>
     <link href="styles/journey.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -19,12 +19,12 @@
             <table id="thumbs">
                 <tr>
 					<!--This row needs to be repeated-->
-                    <td><a href="gallery.php"><img src="images/thumbs/pic1.jpg" alt="" width="200" height="200"></a></td>
+                    <td><a href="gallery.php"><img src="images/thumbs/all1.jpg" alt="" width="200" height="200"></a></td>
                 </tr>
 				<!-- Navigation link needs to go here -->
             </table>
             <figure id="main_image">
-                <img src="images/thumbs/pic.png" alt="" width="200" height="200">
+                <img src="images/thumbs/all2.jpg" alt="" width="200" height="200">
                 <figcaption>Изображение семи грехов в книге Иоанна Бузаеуса</figcaption>
             </figure>
         </div>
