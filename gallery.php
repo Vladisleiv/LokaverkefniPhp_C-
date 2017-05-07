@@ -15,6 +15,18 @@
     <main>
         <h2>Landspitalinn Hringbraut</h2>
       <p id="picCount">Displaying 1 to 7</p>
+
+      <h1>Hérna þú get bæta við mynd i gallery.</h1>
+<form action="input3.php" method="POST">
+    Nafn:<br>
+    <input type="text" name="myndheiti">
+    <br><br/>
+    Slóð:<br>
+    <input type="text" name="myndavefslod">
+    <br><br>
+    <input type="submit" name="Submit">
+</form>
+
         <div id="gallery">
             <table id="thumbs">
                 <tr>
@@ -37,22 +49,13 @@
 
         ?>
 
-<h1>Hérna Koma Myndir Með Database lausn</h1>
-<form action="input3.php" method="POST">
-    Nafn:<br>
-    <input type="text" name="myndheiti">
-    <br><br/>
-    Slóð:<br>
-    <input type="text" name="myndavefslod">
-    <br><br>
-    <input type="submit" name="Submit">
-</form>
+
 
 <?php
 
             foreach ($mynd as $entry) {
                 # code...
-                echo '<p>' . $entry[0] . '<br> <img src="' . $entry[1] . '" style="width:304px"';
+               echo '<p>' . $entry[0] . '<br> <img src="' . $entry[1] . '" style="width:404px"';
             }
 
             print_r($mynd)

@@ -19,7 +19,7 @@
 		if ($conn->query($sql) === TRUE) {
 			# code...
 			echo "New record created successfully";
-			echo "<a href=\"http://tsuts.tskoli.is/2t/0206953159/verk8/index.php\">Fara til baka herna.</a>";
+			echo "<a href=\"http://tsuts.tskoli.is/2t/0206953159/LokaverkefniPhp_C%23/gallery.php\">Fara til baka herna.</a>";
 
 		}else{
 			echo "Error: " . $sql . "<br>" . $conn->error;
