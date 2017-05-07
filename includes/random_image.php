@@ -1,19 +1,16 @@
 <?php
 $images = [
-    ['file'    => 'Acedia',
-     'caption' => 'Acedia (уныние)'],
-    ['file'    => 'Avaritia',
-     'caption' => 'Avaritia (алчность)'],
-    ['file'    => 'Gula',
-     'caption' => 'Gula (чревоугодие)'],
-    ['file'    => 'Invidia',
-     'caption' => 'Invidia (зависть)'],
-    ['file'    => 'Ira',
-     'caption' => 'Ira (гнев)'],
-    ['file'    => 'Luxuria',
-     'caption' => 'Luxuria (похоть, блуд)'],
-    ['file'    => 'Superbia',
-     'caption' => 'Superbia (гордыня)'],
+    ['file'    => 'LSH1',
+     'caption' => 'Landspitalinn'],
+    ['file'    => 'LSH2',
+     'caption' => 'Landspitalinn'],
+    ['file'    => 'LSH3',
+     'caption' => 'Landspitalinn'],
+    ['file'    => 'LSH4',
+     'caption' => 'Landspitalinn'],
+    ['file'    => 'LSH5',
+     'caption' => 'Landspitalinn'],
+ 
     
 ];
 $i = rand(0, count($images)-1);
