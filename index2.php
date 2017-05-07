@@ -4,13 +4,13 @@
 
 		?>
 
-<h1>Hérna Koma Myndir Með Database lausn</h1>
+<h1>Hérna Koma Nafn, Fornafn og Kennitala til Database.</h1>
 <form action="input.php" method="POST">
 	Nafn:<br>
-	<input type="text" name="Name">
+	<input type="text" name="Nafn">
 	<br><br/>
 	Lastname:<br>
-	<input type="text" name="Lastname">
+	<input type="text" name="Fornafn">
 	<br><br/>
 	Kennitala:<br>
 	<input type="text" name="Kennitala">
