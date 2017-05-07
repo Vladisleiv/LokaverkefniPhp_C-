@@ -31,12 +31,13 @@
 
 </form>   
     
-        </div>
+        
             <?php
-        include "connection.php";
+        include "conn.php";
         include "query.php";
 
         ?>
+        </div>
 
 </body>
 </html>
