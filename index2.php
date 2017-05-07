@@ -17,7 +17,7 @@
      
 
       <h1>Hérna þu get bæta i gagnagrun.</h1>
-<form action="input.php" method="POST">
+<form action="in.php" method="POST">
     Nafn:<br>
     <input type="text" name="Nafn">
     <br><br/>
@@ -28,7 +28,7 @@
     <input type="text" name="Kennitala">
     <br><br>
     <input type="submit" name="Submit">
-    
+
 </form>   
     
         </div>
