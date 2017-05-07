@@ -1,6 +1,6 @@
 <?php
 	try {
-			$source = 'mysql:host=tsuts.tskoli.is;dbname=0206953159_c#_php ';
+			$source = 'mysql:host=tsuts.tskoli.is;dbname=0206953159_php_c#';
 			$user ='0206953159';
 			$password = 'peskivreme95';
 

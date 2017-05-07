@@ -1,7 +1,7 @@
 <?php
 		try {
 			
-                   $sql = "select * FROM system";
+                   $sql = "select * FROM customers";
 
                    $result = $pdo ->query($sql);
 
@@ -11,6 +11,6 @@
 
 		while ($row = $result -> fetch()) {
 			
-			$gold[] = array($row['Nafn'], $row['Fornafn'], $row['Kennitala']);
+			$gold[] = array($row['Name'], $row['Lastname'], $row['Kennitala']);
 		}
 ?>
