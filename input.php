@@ -2,9 +2,9 @@
 		$servername = "82.148.66.15";
 		$username= "0206953159";
 		$password= "peskivreme95";
-		$dbname ="0206953159_lokaverkefni_2017";
-		$Name = $_POST['Name'];
-		$Lastname = $_POST['Lastname'];
+		$dbname ="0206953159_0206953159_c#_php ";
+		$Name = $_POST['Nafn'];
+		$Lastname = $_POST['Fornafn'];
 		$Kennitala = $_POST['Kennitala'];
 
 		$conn = new mysqli($servername, $username, $password, $dbname);
@@ -14,8 +14,8 @@
 			die("Connection failed: " . $conn->connect_error);
 		}
 
-		$sql = "INSERT INTO gold_customers (Name,Lastname,Kennitala) 
-		VALUES (\"$Name\", \"$Lastname\", \"$Kennitala\")";
+		$sql = "INSERT INTO system (Nafn,Fornafn,Kennitala) 
+		VALUES (\"$Nafn\", \"$Fornafn\", \"$Kennitala\")";
 
 		if ($conn->query($sql) === TRUE) {
 			# code...
