@@ -53,7 +53,7 @@ header {
 
 #wrapper {
 	padding:90px 0 45px;
-	background: #fff url(../images/pic1.jpg) top left no-repeat;
+	background: #fff;
 	width:900px;
 	margin:0 auto;
 	position:relative;
