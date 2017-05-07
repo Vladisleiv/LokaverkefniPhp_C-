@@ -3,25 +3,20 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>LSH<?php if(isset($title)) { echo "&#8212;{$title}"; } ?></title>
+    <title>Landspitalinn Hrigbraut<?php if(isset($title)) { echo "&#8212;{$title}"; } ?></title>
     <link href="styles/journey.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
 <header>
-<?php require './includes/menu.php'; ?>
-    <h1>Landspitalin Hringbraut!</h1>
+    <h1>LSH </h1>
 </header>
 <div id="wrapper">
-    
+    <?php require './includes/menu.php'; ?>
+    <main>
+        <h2>Landspitalinn Hringbraut</h2>
+     
 
-    <?php
-        include "connection.php";
-        include "query.php";
-
-        ?>
-
-<h1>Hérna Koma Nafn, Fornafn og Kennitala til Database.</h1>
+      <h1>Hérna þu get bæta i gagnagrun.</h1>
 <form action="input.php" method="POST">
     Nafn:<br>
     <input type="text" name="Nafn">
@@ -34,10 +29,15 @@
     <br><br>
     <input type="submit" name="Submit">
 </form>
+
+        
     <?php include './includes/footer.php'; ?>
+
+            <?php
+        include "connection.php";
+        include "query.php";
+
+        ?>
 </div>
 </body>
 </html>
-
-
-	
