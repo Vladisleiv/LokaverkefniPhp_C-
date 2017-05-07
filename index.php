@@ -6,7 +6,7 @@ try {
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Seven Deadly sins.<?php if(isset($title)) { echo "&#8212;{$title}"; } ?></title>
+    <title>Landspitalinn Hringbraut.<?php if(isset($title)) { echo "&#8212;{$title}"; } ?></title>
     <link href="styles/journey.css" rel="stylesheet" type="text/css">
     <?php if (isset($imageSize)) { ?>
     <style>
@@ -19,7 +19,7 @@ try {
 
 <body>
 <header>
-    <h1>Deadly Sins</h1>
+    <h1>Landspitalinn Hringbraut</h1>
 </header>
 <div id="wrapper">
    <?php
@@ -31,38 +31,17 @@ try {
    }
    ?>
     <main>
-        <h2>Западная схема семи главных грехов</h2>
-	  <p>Число семь, укрепившееся в католической традиции, для главных грехов в западном христианстве ввёл папа Григорий I Великий. Он перечислил семь грехов, которые затем включил в катехизис церкви, в сочинении под названием «Толкование на Книгу Иова, или Нравственные толкования» (Expositio in librum Iob sive Moralia. Из восьмеричной схемы он объединил в один грех печаль с унынием, тщеславие с гордыней и добавил зависть. Также он изменил последовательность грехов, поставив на первое место гордыню, затем — другие «душевные» грехи, а «плотские» грехи поставив в конец. В результате список семи грехов папы Григория получил следующий вид.</p>
+        <h2>Forstjórapistill: Hvað er Landspítali?</h2>
+	  <p>Kæra samstarfsfólk!
+     Í bókinni Sapiens eftir sagnfræðiprófessorinn Yuval Noah Harare er varpað fram þeirri hugmynd að straumhvörf hafi orðið þegar maðurinn náði færni á eiginleikanum til að búa til í huga sér sameiginlega mynd af afstæðum hlutum. Dæmi um slíka hugmynd eru peningar sem hafa ekki gildi í sjálfu sér en snúast um traust, þjóðríki sem snúast um afmarkað landsvæði með landamæri, trú sem snýst að hluta til um von og þjóð sem fjallar um hóp fólks með ákveðna menningu og eigin sögu. Eftir að maðurinn náði valdi á þessum eiginleika, að búa sér til sameiginlega afstæða mynd, gátu þúsundir, já jafnvel milljónir einstaklinga unnið að sama markmiði og náð ótrúlegum árangri.</p>
         <?php if (isset($imageSize)) { ?>
 		<figure><img src="<?= $selectedImage; ?>" alt="Random image" <?= $imageSize[0]; ?>>
             <figcaption><?= $caption; ?></figcaption>
         </figure>
         <?php } ?>
-        <p>Gula (чревоугодие)</p>
-           <p> Fornicatio (блуд)</p>
-            <p>Avaritia (алчность)</p>
-            <p>Ira (гнев)</p>
-            <p>Tristitia (печаль)</p>
-            <p>Acedia (уныние)</p>
-            <p>Vanagloria (тщеславие)</p>
-            <p>Superbia (гордыня)</p>
-<p>После Кассиана восемь главных грехов в западном христианской традиции различали некоторые другие авторы, такие как Колумбан и Алкуин.</p>
-        <h2>Западная схема семи главных грехов</h2>
-
-
-<p>Число семь, укрепившееся в католической традиции, для главных грехов в западном христианстве ввёл папа Григорий I Великий. Он перечислил семь грехов, которые затем включил в катехизис церкви, в сочинении под названием «Толкование на Книгу Иова, или Нравственные толкования» (Expositio in librum Iob sive Moralia[. Из восьмеричной схемы он объединил в один грех печаль с унынием, тщеславие с гордыней и добавил зависть. Также он изменил последовательность грехов, поставив на первое место гордыню, затем — другие «душевные» грехи, а «плотские» грехи поставив в конец[28]. В результате список семи грехов папы Григория получил следующий вид</p>
-        <p>Superbia (гордыня)</p>
-<p>Invidia (зависть)</p>
-<p>Ira (гнев)</p>
-<p>Acedia (уныние)[30]</p>
-<p>Avaritia (алчность)</p>
-<p>Gula (чревоугодие)</p>
-<p>Luxuria (похоть, блуд)</p>
-<p>Поэт Данте Алигьери в поэме Божественная комедия (ок. 1307—1321), во второй её части, описывает семь кругов чистилища в порядке, соответствующем этому перечислению семи грехов папой Григорием I.
-
-В период средневековья большое влияние на развитие учения о семи главных грехах в католической теологии оказал святой Фома Аквинский, который занимался развитием этого учения в своём фундаментальном труде «Сумма теологии». Фома писал сочинения на латыни и в рассуждениях по этому поводу предпочитал употреблять термин vitium (англ. vice), подразумевающий в контексте порок, склад характера, склоняющий к совершению греха. Фома отличал это понятие от греха как неверного с моральной точки зрения действия. Он утверждал, что грех превосходит порок в зле.
-
-Фома Аквинский определил главные пороки в качестве источника множества грехов следующим образом: «главный порок таков, что имеет чрезвычайно желанную цель, так что в её вожделении человек прибегает к совершению многих грехов, которые все берут начало в этом пороке как их главной причине». Фома рассматривал те же семь главных грехов, которые перечислил папа Григорий, но в несколько ином порядке. Тот же самый список главных грехов предоставлял святой Бонавентура в сочинении «Краткое изложение богословия» (Breviloquium).</p>
+        <p>Mér varð hugsað til þessarar kenningar í vikunni á frábærum fundum hér á Landspítala. Sá fyrri var árlegur vorfundur tvö hundruð stjórnenda spítalans. Annars vegar var skoðað hvað við á spítalanum getum gert til að bæta mönnun og gera vinnustaðinn meira aðlaðandi. Hins vegar byrjaði hópurinn að velta fyrir sér hlutverki Landspítala, í hverju það er fólgið, hverju við eigum að sinna í meiri mæli og hverju í minna mæli. Hinn fundurinn var Vísindi á vordögum, árleg uppskeruhátíð vísindafólks á Landspítala, sem haldinn var í gær. Þar veitti Vísindasjóður spítalans 68 milljónir króna í styrki til tuga frábærra vísindamanna á spítalanum.</p>
+<p>Það sem mér fannst áberandi á báðum þessum samkomum var sá ótrúlegi sköpunarkraftur og eldmóður sem býr í starfsfólki þessa spítala. Kraftur sem næst í gegnum sameiginlega sýn á Landspítala sem hugmynd. </p>
+        
     </main>
     <?php include './includes/footer.php'; ?>
 </div>
