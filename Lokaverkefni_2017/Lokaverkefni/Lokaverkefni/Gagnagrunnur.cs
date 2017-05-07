@@ -35,7 +35,7 @@ namespace Lokaverkefni
         public void TengingGagnagrunur()
         {
             server = "82.148.66.15";//ip talan fyrir phpMyAdmin
-            database = "0206953159_lokaverkefni_2017 ";
+            database = "0206953159_php_c# ";
             uid = "0206953159";
             password = "peskivreme95";
 
@@ -81,7 +81,7 @@ namespace Lokaverkefni
             string lina = null;
             if (OpenConnection()==true)
             {
-                fyryrspurn = "SELECT Name,Lastname,Kennitala FROM gold_customers where kennitala='"+kt+"'";
+                fyryrspurn = "SELECT Name,Lastname,Kennitala FROM customers where kennitala='"+kt+"'";
                 nySQLskipun = new MySqlCommand(fyryrspurn, sqltenging);
                 sqllesari = nySQLskipun.ExecuteReader();
                 while (sqllesari.Read())
@@ -103,7 +103,7 @@ namespace Lokaverkefni
             string[] gogn = new string[4];
             if (OpenConnection() == true)
             {
-                fyryrspurn = "SELECT Name,Lastname,Kennitala FROM gold_customers where kennitala='" + kt + "'";
+                fyryrspurn = "SELECT Name,Lastname,Kennitala FROM customers where kennitala='" + kt + "'";
                 nySQLskipun = new MySqlCommand(fyryrspurn, sqltenging);
                 sqllesari = nySQLskipun.ExecuteReader();
                 while (sqllesari.Read())
