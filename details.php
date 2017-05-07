@@ -14,8 +14,8 @@
 <div id="wrapper">
     <?php require './includes/menu.php'; ?>
     <main>
-        <h2>Главные грехи </h2>
-      <p>Гла́вные грехи́, или коренны́е грехи́ (лат. peccata capitalia), — термин, которым в католическом богословии называют основные пороки, лежащие в основе множества других грехов: гордыня (тщеславие), алчность, зависть, гнев, похоть, чревоугодие, лень или уныние. В восточной христианской традиции их принято называть семью смертными грехами. В православной аскетике им соответствуют восемь главных греховных страстей: чревоугодие, блуд, сребролюбие, гнев, печаль, уныние, тщеславие, гордость[. Современные православные авторы иногда пишут о них как о восьми смертных грехах. Семь (или восемь) смертных грехов следует отличать от отдельного теологического понятия смертного греха (лат. peccatum mortale, англ. mortal sin), которое введено для классификации грехов по степени тяжести и последствиям на тяжёлые и обыденные.</p>
+        
+      <p>Saman náum við miklu meiri árangri heldur en summa 5.000 starfa, eins miklu og þau ein og sér gætu samt skilað. Fyrir vikið erum við  hornsteinn í íslensku samfélagi . Þetta vitum við sem hér vinnum og þess vegna erum við vakin og sofin yfir verkefnunum hér, sama hvað á dynur og  að okkur er rétt. Við vitum að hugsjónin um öflugt sjúkrahús með frábæru starfsfólki stendur af sér pólitíska stefnur og strauma, enda markmiðin skýr.</p>
         <p><a href="blog.php">Back to the blog </a></p>
     </main>
     <?php include './includes/footer.php'; ?>
