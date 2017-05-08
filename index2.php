@@ -19,10 +19,10 @@
       <h1>Hérna þu get bæta i gagnagrun.</h1>
 <form action="in.php" method="POST">
     Nafn:<br>
-    <input type="text" name="Nafn">
+    <input type="text" name="Name">
     <br><br/>
     Lastname:<br>
-    <input type="text" name="Fornafn">
+    <input type="text" name="Lastname">
     <br><br/>
     Kennitala:<br>
     <input type="text" name="Kennitala">
